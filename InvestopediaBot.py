@@ -4,7 +4,7 @@ import time
 from time import sleep
 import random
 
-#driver = webdriver.Chrome(r'C:\Users\<user>\<file>\<file>\chromedriver')
+driver = webdriver.Chrome()
 driver.get('https://www.investopedia.com/financial-term-dictionary-4769738')
 
 webs = []
